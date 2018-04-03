@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style media="screen" type="text/css">
+
+/* Layout */
+
+body {
+    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+	color:#2a3845;
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+
+p {
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:632px;
+	border-left:1px solid #f0e9eb;
+	border-right:1px solid #f0e9eb;
+}
+
+#header {
+	margin:0 1px;
+}
+
+#bg {
+	height:36px;
+	
+}
+
+#main-content {
+	margin:0 auto;
+}
+
+#main-image {
+	text-align:center;
+}
+
+#left-column {
+	width:300px;
+	padding:0 30px 30px;
+	float:left;
+}
+
+#right-column {
+	width:270px;
+	float:right;
+}
+
+.sidebar {
+	width:218px;
+	margin:0 auto;
+	padding:10px 25px;
+	
+}
+
+#footer {
+	background:#f7f7f7;
+	border-top:1px solid #f0e9eb;
+	padding:10px 15px;
+	clear:both;
+}
+
+/* Global Styling */
+
+a:visited, a:link {
+	color:#a43b55;
+	text-decoration:underline;
+	background:none;
+}
+
+a:hover {
+	color:#a43b55;
+	text-decoration:none;
+	background:none;
+}
+
+h1 {
+	color:#7a2e40;
+	margin:0 0 10px;
+	padding-bottom:10px;
+	font:normal 17px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
+h2 {
+	color:#7a2e40;
+	margin:20px 0 10px;
+	padding-bottom:10px;
+	font:normal 17px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
+h3 {
+	color:#7a2e40;
+	margin:10px 0;
+	padding-bottom:10px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	border-bottom:1px solid #efece7;
+}
+
+ul {
+	padding:0;
+	margin:0 0 0 17px;
+}
+
+.box {
+	background:#f7f7f7;
+	border:1px solid #f0e9eb;
+	padding:15px;
+}
+
+#nav {
+	background:#06a;
+	padding:10px 20px;
+	text-align:right;
+	color:#f6dde3;
+}
+
+#nav a {
+	margin: 0 10px;
+}
+
+#nav a:visited, #nav a:link {
+	text-decoration:none;
+	color:#f6dde3;
+}
+
+#nav a:hover {
+	text-decoration:underline;
+	color:#f6dde3;
+}
+
+#logo {
+	margin-bottom:20px;
+	font:normal 18px Georgia, serif;
+	color:#fa7393;
+}
+
+</style>
+    <title>LYDIA OJOAWO - FavCoder Test</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+    
+	<div id="header">
+		<div id="nav"><a href="index.html">Home</a> | <a href="#">About Me</a> | <a href="#">Contact Me</a> | <a href="#">My Photos</a> 
+		<div id="bg"></div>
+	</div>
+	
+	<div id="main-content">
+		<div id="left-column">
+			<div id="logo">
+			Welcome to Lydia Ojoawo Submission to FavCode Test
+			</div>
+			<div class="box">
+        		<h1>This is why you should choose Me</h1>
+        					<ul style="margin-top:10px;">
+					<li>I have knowledge of HTML, CSS and Javascript</li>
+					<li>I am very eager to learn and improve my skills</li>
+					<li>I pay strong attention to detail</li>
+					<li>I am familiar with GitHub</li>
+					<li>I have enough time to work on projects</li>
+				</ul>
+			</div>
+			<h2>My Education</h2>
+			
+				<em>Bachelors Degree at Obafemi Awolowo University</em>
+				<em> 2018-2022
+				<em>"</em> <br/>
+				<em>WASSCE - 2017
+				<em></em> SPED International Secondary School, Akinmorin, Oyo </em> <br/>
+				<em>Web Development at Pearls Africa Foundation
+				<em> 2017-2018
+				<em>"</em> <br/>
+				<em>Artificial Intelligence at FavCode54
+				<em></em> 2018
+			</p>
+		</div>
+		<div id="right-column">
+			<div id="main-image"><img src="https://media.licdn.com/dms/image/C4D03AQH68PW6wtkzxA/profile-displayphoto-shrink_200_200/0?e=1527944400&v=alpha&t=mgVUme9Lan0ezTayCWgvAaveKchtVOmK7YqOMmx2hI8"
+" width="160" height="188" /></div>
+			<div class="sidebar">
+				<h3>About Me</h3>
+				<p>"I am Lydia, and I am a 16 years old Nigerian girl who wants to develop more skills and use Tech to change the world".</p>
+				<h3>Find Me Elsewhere</h3>
+				<div class="box">
+					<ul>
+						<li><a href="https://web.facebook.com/profile.php?id=100009111801221" target="_blank">Facebook</a></li>
+						<li><a href="mailto:ojoawolydia@gmail.com" target="_blank">Email</a></li>
+						<li><a href="http://linkedin.com/in/lydia-ojoawo" target="_blank">LinkedIn</a></li>
+						<li><a href="tel:+2348166372244">08166372244</a>
+
+					
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		Copyright &copy; April 2018 Lydia Ojoawo. All rights reserved.<br/>
+	
+	</div>
+</div>
+
+</body>
+</html>
